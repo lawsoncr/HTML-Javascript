@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Project</title>
+	<link rel="stylesheet" href="../styles/project2.css">
+</head>
+<body>   
+<div class="grid-container">
+	<div class="item1">
+	<header>
+		<h1>Office of the Quality Enhancement Plan</h1>
+		<h2>Appalachian State University</h2>
+	</header>
+	</div>
+	
+	<div class="item2">
+
+	
+	<div class="topnav">
+		<a href="#news">About</a>
+		<a href="#contact">Goals & Outcomes</a>
+		<a href="#about">Funding</a>
+		<a href="#about">Curricular Actions</a>
+		<a href="#about">Training & Development</a>
+		<a href="#about">Assessment</a>
+		<a href="#about">Freshman Survey</a>
+	</div>
+	
+	<aside>
+	<article class="side">
+		<h2>25%</h2>
+			<p>participation rate for study abroad, compared to national rate of 14 percent</p>
+	</article>
+	</aside>
+	
+	<h1></h1>
+	<article class="one">
+		<h2>Search by Language</h2>
+		
+		<label for="languages">Language:</label>
+		<select name="languages" id="languages">
+			<option value="English">English</option>
+			<option value="French">French</option>
+			<option value="German">German</option>
+			<option value="Arabic">Arabic</option>
+			<option value="Spanish">Spanish</option>
+			<option value="Portuguese">Portuguese</option>
+		</select>
+		
+		<label for="proficiency">Proficiency:</label>
+		<select name="proficiency" id="proficiency">
+			<option value="low">Low</option>
+			<option value="med">Med</option>
+			<option value="high">High</option>
+		</select>
+		
+		<button type="button">Search</button>
+		<br></br>
+		<table style="width:60%" id="Ltable" >
+		  <tr>
+			<th>Firstname</th>
+			<th>Lastname</th>
+			<th>Language</th>
+			<th>Proficiency</th>
+			<th>Email</th>
+		  </tr>
+		  
+		  <tr>
+			<td>Noureddine</td>
+			<td>Abidi</td>
+			<td>French</td>
+			<td>High</td>
+			<td>n.abidi@ttu.edu</td>
+		  </tr>
+		  
+		  <tr>
+			<td>Noureddine</td>
+			<td>Abidi</td>
+			<td>Arabic</td>
+			<td>High</td>
+			<td>n.abidi@ttu.edu</td>
+		  </tr>
+		  
+		  <tr>
+			<td>Amma</td>
+			<td>Akrofi</td>
+			<td>French</td>
+			<td>Low</td>
+			<td>amma.akrofi@ttu.edu</td>
+		  </tr>
+		  
+		  <tr>
+			<td>Adelia</td>
+			<td>Aquino</td>
+			<td>Spanish</td>
+			<td>Med</td>
+			<td>adelia.aquino@ttu.edu</td>
+		  </tr>
+		  
+		  <tr>
+			<td>Adelia</td>
+			<td>Aquino</td>
+			<td>German</td>
+			<td>Low</td>
+			<td>adelia.aquino@ttu.edu</td>
+		  </tr>
+		  
+		  <tr>
+			<td>Adelia</td>
+			<td>Aquino</td>
+			<td>Portuguese</td>
+			<td>High</td>
+			<td>adelia.aquino@ttu.edu</td>
+		  </tr>
+		</table>
+	</article>
+	<hr>
+	<article id="two">
+		<h2>Search by Affiliation</h2>
+		
+		<label for="department">Department:</label>
+		<select name="department" id="department">
+			<option value="Anthropology">Anthropology</option>
+			<option value="Biology">Biology</option>
+			<option value="Chemistry">Chemistry</option>
+			<option value="Computer Science">Computer Science</option>
+			<option value="English">English</option>
+			<option value="Geography">Geography</option>
+			<option value="Geological Sciences">Geological Science</option>
+			<option value="Government Studies">Government Studies</option>
+			<option value="History">History</option>
+			<option value="Mathematical Sciences">Mathematical Science</option>
+			<option value="Philosophy">Philosophy</option>
+			<option value="Physics">Physics</option>
+			<option value="Psychology">Psychology</option>
+			<option value="Sociology">Sociology</option>
+		</select>
+		
+		<label for="academic college">Academic College:</label>
+		<select name="academic college" id="academic college">
+			<option value="College of Agricultural Sciences">College of Agricultural Sciences</option>
+			<option value="College of Education">College of Education</option>
+			<option value="College of Arts and Sciences">College of Arts and Sciences</option>
+		</select>
+		
+		<label for="country">Country:</label>
+		<select name="country" id="country">
+			<option value="Brazil">Brazil</option>
+			<option value="France">France</option>
+			<option value="Germany">Germany</option>
+			<option value="Mexico">Mexico</option>
+			<option value="Sweden">Sweden</option>			
+			<option value="United Sates">United States</option>
+		</select>		
+		
+		<label for="Lastname">Lastname:</label>
+		<select name="Lastname" id="Lastname">
+			<option value="Abidi">Abidi</option>
+			<option value="Akrofi">Akrofi</option>
+			<option value="Aquino">Aquino</option>
+			<option value="Arsuffi">Arsuffi</option>
+			<option value="Auld">Alud</option>			
+		</select>	
+		
+		<button type="button">Search</button>
+		<br></br>
+		
+		<table style="width:50%" id="Atable" >
+		  <tr>
+			<th>Firstname</th>
+			<th>Lastname</th>
+			<th>College</th>
+			<th>Department</th>
+			<th>Country</th>
+			<th>Travelled(Y/N)</th>
+			<th>Project Description</th>
+		  </tr>
+		  
+		  <tr>
+			<td>Noureddine</td>
+			<td>Abidi</td>
+			<td>Plant and Soil Science</td>
+			<td>College of Agricultural Sciences and Natural Resources</td>
+			<td>Sweden</td>
+			<td>No</td>
+			<td>Research: KTH</td>
+		  </tr>
+		  
+		  <tr>
+			<td>Amma</td>
+			<td>Akrofi</td>
+			<td>Curriculum Studies and Teacher Education</td>
+			<td>College of Education</td>
+			<td>Sierra Leone</td>
+			<td>Yes</td>
+			<td>Presentation: Schlumberger Foundation</td>
+		  </tr>
+		  
+		  <tr>
+			<td>Adelia</td>
+			<td>Aquino</td>
+			<td>Chemistry and Biochemistry</td>
+			<td>College of Arts and Sciences</td>
+			<td>Germany</td>
+			<td>Yes</td>
+			<td>Research: University of Koblenz, Landau</td>
+		  </tr>
+		  
+		  <tr>
+			<td>Tom</td>
+			<td>Arsuffi</td>
+			<td>Biological Sciences,</td>
+			<td>College of Arts and Sciences</td>
+			<td>Bhutan</td>
+			<td>No</td>
+			<td>Research: Government of Bhutan</td>
+		  </tr>
+		  
+		  <tr>
+			<td>Dick</td>
+			<td>Auld</td>
+			<td>Plant and Soil Science</td>
+			<td>College of Agricultural Sciences and Natural Resources</td>
+			<td>Brazil</td>
+			<td>Yes</td>
+			<td>Research: UNESP</td>
+		  </tr>
+		</table>
+		
+	</article>
+	<hr>
+	<article id="three">
+		<h2>Study Abroad Opportunities Available</h2>
+		
+		<label for="term">Term:</label>
+		<select name="term" id="term">
+			<option value="Fall 2019">Fall 2019</option>
+			<option value="Spring 2020">Spring 2020</option>
+			<option value="Fall 2020">Fall 2020</option>
+			<option value="Spring 2021">Spring 2021</option>			
+		</select>
+		
+		<label for="Program Name">Program Name:</label>
+		<select name="Program Name" id="Program Name">
+			<option value="Chancellor's Scholars Ireland">Chancellor's Scholars Ireland</option>
+			<option value="iASE Dominican Republic">iASE Dominican Republic</option>
+			<option value="UK Finance">UK Finance</option>
+			<option value="Bermuda Finance">Bermuda Finance</option>
+		</select>
+		
+		<label for="country">Country:</label>
+		<select name="country" id="country">
+			<option value="Brazil">Brazil</option>
+			<option value="Bermuda">Bermuda</option>
+			<option value="France">France</option>
+			<option value="Germany">Germany</option>
+			<option value="Ireland">Ireland</option>
+			<option value="Mexico">Mexico</option>
+			<option value="Sweden">Sweden</option>
+			<option value="United Kingdom">United Kingdom</option>			
+			<option value="United Sates">United States</option>
+			
+		</select>		
+		
+		<label for="Dates">Dates:</label>
+		<select name="Dates" id="Dates">
+			<option value="10/10/2019 to 10/15/2019">10/10/2019 to 10/15/2019</option>
+			<option value="03/07/2020 to 03/14/2020">03/07/2020 to 03/14/2020</option>
+			<option value="05/10/2020 to 05/16/2020">05/10/2020 to 05/16/2020</option>		
+		</select>	
+		
+		<button type="button">Search</button>
+		<br></br>
+		
+		<table style="width:50%" id="Atable" >
+		  <tr>
+			<th>Term</th>
+			<th>Program Name</th>
+			<th>Country</th>
+			<th>College</th>
+			<th>Dept.</th>
+			<th>Dates</th>
+			<th>Level</th>
+			<th>Credits</th>
+			<th>Avail.</th>
+		  </tr>
+		  
+		  <tr>
+			<td>Fall 2019,</td>
+			<td>Chancellor's Scholars Ireland</td>
+			<td>Ireland</td>
+			<td>Appalachain State</td>
+			<td>N/A</td>
+			<td>10/10/2019 to 10/15/2019</td>
+			<td>Undergraduate</td>
+			<td>3</td>
+			<td>Closed</td>
+		  </tr>
+		  
+		  <tr>
+			<td>Spring 2020</td>
+			<td>iASE Dominican Republic</td>
+			<td>Dominican</td>
+			<td>Appalachain State</td>
+			<td>N/A</td>
+			<td>03/07/2020 to 03/14/2020</td>
+			<td>Undergraduate</td>
+			<td>3</td>
+			<td>Open</td>
+		  </tr>
+		  
+		  <tr>
+			<td>Spring 2020</td>
+			<td>UK Finance</td>
+			<td>United Kingdom</td>
+			<td>Appalachain State</td>
+			<td>Walker College of Business</td>
+			<td>03/07/2020 to 03/14/2020</td>
+			<td>Undergraduate</td>
+			<td>3</td>
+			<td>Open</td>
+		  </tr>
+		  
+		  <tr>
+			<td>Spring 2020</td>
+			<td>Bermuda Finance</td>
+			<td>Bermuda,</td>
+			<td>Appalachain State</td>
+			<td>Walker College of Business</td>
+			<td>05/10/2020 to 05/16/2020</td>
+			<td>Undergraduate</td>
+			<td>3</td>
+			<td>Open</td>
+		  </tr>
+		</table>
+	</article>
+</div>
+</body>
+</html>

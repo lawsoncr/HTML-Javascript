@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Acme Corporation Feedback</title>
+</head>
+<body>
+<form action="https://student2.cs.appstate.edu/swansonja/exercise5.php" method="get">
+	<h1>Contact Us</h1>
+	<fieldset>
+		<legend>Send Us Feedback</legend>
+		
+		<label for="emailTo">To:<br />
+		<input id="emailTo" type="text" name="emailTo" style="width: 155px;" value="Acme Corporation"/>
+		</label><br />
+		
+		<br />
+		<label for="emailFrom">Your email address:<br />
+		<input id="emailFrom" type="text" name="emailFrom" style="width: 155px;"/>
+		</label><br />
+		
+		<br />
+		<label for="emailBody">Message:<br />
+		<textarea id="emailBody" name="emailBody" placeholder="Type your message here..." cols="20" rows="5"></textarea>
+		</label>
+	</fieldset>
+	
+	<fieldset>
+		<legend>Survey Questions</legend>
+		
+		<label for="referrer">How did you hear about us?<br />
+		<select id="referrer" name="referrer">
+			<option value="google">Google</option>
+			<option value="ad">Newspaper Ad</option>
+			<option value="friend">Friend</option>
+			<option value="other">Other</option>
+		</select>
+		</label>
+		
+		<label for="newsletter">Would you like to recive our newsletter?<br />
+		<input id="newsletter" type="checkbox" name="newsletter"
+			value="Yes" /> Yes please. Send me the newsletter.
+		</label>
+	</fieldset>
+	
+	<fieldset>
+		<legend>Rate Our Service</legend>	
+		
+		<input id="rating_1" type="radio" name="rating" value="1" />Very Poor<br />
+		<input id="rating_2" type="radio" name="rating" value="2" />Poor<br />
+		<input id="rating_3" type="radio" name="rating" value="3" />Average<br />
+		<input id="rating_4" type="radio" name="rating" value="4" />Good<br />
+		<input id="rating_5" type="radio" name="rating" value="5" />Very Good<br />		
+	</fieldset>
+	<input type="submit" name="sendMessage" value="Send Message" />
+</form>
+</body>
+</html>
