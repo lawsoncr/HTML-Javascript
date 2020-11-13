@@ -1,0 +1,30 @@
+@font-face {   
+    src: url("../fonts/LobsterTwo-Regular.otf");
+	font-family: Lobreg;
+}
+
+@font-face {   
+    src: url("../fonts/LobsterTwo-Bold.otf");
+	font-family: Lobbold;
+}
+
+p::first-line {
+text-align: center;
+color: blue;
+font-family: Lobreg;
+text-transform: uppercase;
+text-shadow: 2px 2px 7px #111111;
+letter-spacing: 0.0625em;}
+
+p {
+text-align: center;
+color: red;
+font-family: Lobbold;
+text-shadow: 2px 2px 7px #111111;
+word-spacing: 1.4em;}
+
+body{
+background-color: grey;}
+
+.go {
+text-decoration: line-through;}

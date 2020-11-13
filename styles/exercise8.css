@@ -1,0 +1,36 @@
+body{
+background-color: grey;}
+
+h1{
+background-color: black;
+color: white;}
+p{
+color: rgba(0,0,0);}
+
+ul.two {
+background-color: hsla(225,50%,50%,0.5);}
+
+h2{
+color: grey;
+background-color: hsla(75,50%,50%,0.5);}
+
+p.one {
+color: hsla(300,75%,50%,0.5);}
+
+ul.two {
+background-color: hsla(225,50%,50%,0.5);}
+
+ol.fetts{
+background-color: rgb(250,222,100);}
+
+dt{
+color: hsla(75,50%,50%,0.5);}
+
+dd{
+color: hsla(180 ,50%,50%,0.5);}
+	
+.go{
+text-decoration: line-through;}
+
+p.sunny{
+color: green;}

@@ -1,0 +1,41 @@
+body {
+	background-color: Khaki;
+	text-align: left;
+}
+p.first {
+	margin-left: 24em;
+	margin-right: 24em;
+	background-color: LightGrey;
+}
+p.second {
+	margin-left: 24em;
+	margin-right: 24em;
+	background-color: LightGrey;
+	box-shadow: 5px 5px Grey;
+}
+p.third {
+	border: 5px solid;
+	padding: 25px;
+	margin: 30px;
+	margin-left: 28em;
+	margin-right: 28em;
+	box-shadow: 5px 5px Grey;
+}
+p.fourth {
+	border: 5px solid;
+	margin: 90px;
+	padding: 13px;
+	margin-left: 29em;
+	margin-right: 29em;
+	-moz-border-radius: 100px;
+	-webkit-border-radius: 100px;
+	box-shadow: 5px 5px Grey;
+}
+p.fifth {
+	border: 10px solid transparent;
+    padding: 15px;
+	margin-left: 24em;
+	margin-right: 24em;
+	border-image: url(../images/border.png) 20% round;
+	
+}

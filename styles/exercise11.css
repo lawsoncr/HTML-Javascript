@@ -1,0 +1,39 @@
+ul {
+  list-style-image: url("../images/star.png"); }
+
+.menu li {
+  display: inline;
+  font-family: sans-serif;
+  border-left: 2px solid;
+  padding:10px;
+  color: rgb(0, 0, 0); }
+
+#lastmenu {
+  border-right: 2px solid;
+  padding:10px;
+  color: rgb(0, 0, 0); }
+
+.link:hover {
+  color: rgb(255, 0, 255); }
+
+hr {
+  width: 75%;
+  text-align: center;
+  background-color: rgb(248, 191, 132);
+  height:1px; }
+
+table {
+  border-collapse: collapse;
+  width: 100% }
+
+th, td {
+  padding: 7px 10px 5px 5px;}
+
+th {
+  border-top: 2px solid #72bcd4;
+  border-bottom: 2px solid #72bcd4;
+  text-align: left;
+  color: rgb(255, 165, 0); }
+
+tr.zebra {
+  background-color: #efefef; }
